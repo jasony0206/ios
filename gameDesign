@@ -1,0 +1,56 @@
+//IOS display
+320 x 480
+640 x 960
+640 x 1136
+768 x 1004
+1024 x 748
+1536 x 2008
+2048 x 1496
+768 x 1024
+1024 x 768
+1536 x 2048
+2048 x 1536
+750 x 1334
+1242 x 2208
+//
+
+Top//
+Title of the game
+Score
+//
+
+Middle//
+5X5 blocks generating number 2 or 4
+//
+
+Bottom//
+Button that generates number on gameboard
+//
+
+
+
+System//
+User connects same numbers adjacent to each other to create one number resulting in: (the number)^(number of numbers used)
+Definition of adjacent: top, right, down, left, diagonal (end of numberboard is not connected to the other end)
+Game ends when there is 0 same number adjacent to each other
+//
+
+//alteration/optional
+instead of random number generated, user drags either 2 or 4 into the gameboard: reduce rng and increase competition
+timed events: random number generated over time. May be too difficult
+//
+
+
+Color//
+White with diluted colored backgrounds
+//
+
+Score//
+(score) = (score)+(the number)*(number of numbers used)
+OR
+(score) = (highest number on gameboard)
+//
+
+Possible Bugs//
+The number on the gameboard or Score might get too big to display
+//
